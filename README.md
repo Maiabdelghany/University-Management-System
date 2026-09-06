@@ -112,7 +112,3 @@ This project demonstrates a practical application of data structures in software
 University Management System, Linked List, Double Linked List, Binary Search Tree (BST), Stack, Queue, Hash Table, Data Structures, Course Registration, Student Records, Prerequisite Validation, Search Algorithms
 
 ---
-
-## 📄 License
-
-This project was developed for educational purposes as part of a data structures coursework project.
