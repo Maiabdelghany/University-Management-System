@@ -1,0 +1,91 @@
+  UniversitySystem.CourseRecords.resources - Embedded, ContainedInManifestFile, 
+  UniversitySystem.history.resources - Embedded, ContainedInManifestFile, 
+  UniversitySystem.Home.resources - Embedded, ContainedInManifestFile, 
+  UniversitySystem.registration.resources - Embedded, ContainedInManifestFile, 
+  UniversitySystem.search.resources - Embedded, ContainedInManifestFile, 
+  UniversitySystem.StudentManagement.resources - Embedded, ContainedInManifestFile, 
+  UniversitySystem.Waitlist.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly UniversitySystem, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class UniversitySystem.CourseRecords: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(UniversitySystem.CourseBST): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class UniversitySystem.HistoryNode: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String, Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 studentID : Public
+    System.String courseName : Public
+    System.String semester : Public
+    Single grade : Public
+    UniversitySystem.HistoryNode next : Public
+    UniversitySystem.HistoryNode prev : Public
+Class UniversitySystem.CourseHistoryDLL: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    IsStudentExists(Int32): PrivateScope, Public, HideBySig
+    IsDuplicate(Int32, String): PrivateScope, Public, HideBySig
+    AddRecord(Int32, String, String, Single): PrivateScope, Public, HideBySig
+    LoadFromFile(): PrivateScope, Public, HideBySig
+    SaveToFile(): PrivateScope, Public, HideBySig
+    GetStudentDataAsDLL(Int32): PrivateScope, Public, HideBySig
+Class UniversitySystem.history: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class UniversitySystem.DataStore: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    UniversitySystem.SLL studentList : Public, Static
+Class UniversitySystem.StudentManagement: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class UniversitySystem.Node: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String studentID : Public
+    System.String courseID : Public
+    UniversitySystem.Node next : Public
+Class UniversitySystem.WaitlistQueue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    enqueue(String, String): PrivateScope, Public, HideBySig
+    dequeueByCourse(String): PrivateScope, Public, HideBySig
+    DisplayByCourse(DataGridView, String): PrivateScope, Public, HideBySig
+Class UniversitySystem.Waitlist: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class UniversitySystem.LinearBinaryHash: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    LinearSearchStudent(StudentNode, String): PrivateScope, Public, Static, HideBySig
+    SearchInBST(CourseNode, String): PrivateScope, Public, Static, HideBySig
+    HashSearch(Dictionary`2, String): PrivateScope, Public, Static, HideBySig
+Class UniversitySystem.search: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(UniversitySystem.CourseBST): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class UniversitySystem.PrereqStack: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    IsEmpty(): PrivateScope, Public, HideBySig
+    Push(String): PrivateScope, Public, HideBySig
+    Pop(): PrivateScope, Public, HideBySig
+    Peek(): PrivateScope, Public, HideBySig
+    DisplayRemaining(): PrivateScope, Public, HideBySig
+    validatePrerequisites(String, Int32, String&(Out)): PrivateScope, Public, HideBySig
+Class UniversitySystem.registration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class UniversitySystem.Home: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

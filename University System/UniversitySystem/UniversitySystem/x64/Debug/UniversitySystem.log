@@ -1,0 +1,61 @@
+﻿  Home.cpp
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\CourseRecords.h(27,16): warning C4677: 'CourseRecords': signature of non-private member contains assembly private type 'UniversitySystem::CourseBST'
+  (compiling source file 'Home.cpp')
+      C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\CourseBST.h(38,15):
+      see declaration of 'UniversitySystem::CourseBST'
+  
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\DataStore.h(8,27): warning C4677: 'studentList': signature of non-private member contains assembly private type 'UniversitySystem::SLL'
+  (compiling source file 'Home.cpp')
+      C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\SLL.h(29,15):
+      see declaration of 'UniversitySystem::SLL'
+  
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\linearBinaryHash.h(16,9): warning C4677: 'LinearSearchStudent': signature of non-private member contains assembly private type 'UniversitySystem::StudentNode'
+  (compiling source file 'Home.cpp')
+      C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\SLL.h(7,15):
+      see declaration of 'UniversitySystem::StudentNode'
+  
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\linearBinaryHash.h(50,9): warning C4677: 'SearchInBST': signature of non-private member contains assembly private type 'UniversitySystem::CourseNode'
+  (compiling source file 'Home.cpp')
+      C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\CourseBST.h(9,15):
+      see declaration of 'UniversitySystem::CourseNode'
+  
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\search.h(20,9): warning C4677: 'search': signature of non-private member contains assembly private type 'UniversitySystem::CourseBST'
+  (compiling source file 'Home.cpp')
+      C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\CourseBST.h(38,15):
+      see declaration of 'UniversitySystem::CourseBST'
+  
+  StudentManagement.cpp
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\DataStore.h(8,27): warning C4677: 'studentList': signature of non-private member contains assembly private type 'UniversitySystem::SLL'
+  (compiling source file 'StudentManagement.cpp')
+      C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\SLL.h(29,15):
+      see declaration of 'UniversitySystem::SLL'
+  
+  search.cpp
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\DataStore.h(8,27): warning C4677: 'studentList': signature of non-private member contains assembly private type 'UniversitySystem::SLL'
+  (compiling source file 'search.cpp')
+      C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\SLL.h(29,15):
+      see declaration of 'UniversitySystem::SLL'
+  
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\linearBinaryHash.h(16,9): warning C4677: 'LinearSearchStudent': signature of non-private member contains assembly private type 'UniversitySystem::StudentNode'
+  (compiling source file 'search.cpp')
+      C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\SLL.h(7,15):
+      see declaration of 'UniversitySystem::StudentNode'
+  
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\linearBinaryHash.h(50,9): warning C4677: 'SearchInBST': signature of non-private member contains assembly private type 'UniversitySystem::CourseNode'
+  (compiling source file 'search.cpp')
+      C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\CourseBST.h(9,15):
+      see declaration of 'UniversitySystem::CourseNode'
+  
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\CourseRecords.h(27,16): warning C4677: 'CourseRecords': signature of non-private member contains assembly private type 'UniversitySystem::CourseBST'
+  (compiling source file 'search.cpp')
+      C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\CourseBST.h(38,15):
+      see declaration of 'UniversitySystem::CourseBST'
+  
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\search.h(20,9): warning C4677: 'search': signature of non-private member contains assembly private type 'UniversitySystem::CourseBST'
+  (compiling source file 'search.cpp')
+      C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\CourseBST.h(38,15):
+      see declaration of 'UniversitySystem::CourseBST'
+  
+  Generating Code...
+  CourseRecords.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  UniversitySystem.vcxproj -> C:\Users\Lenovo\source\University System\UniversitySystem\x64\Debug\UniversitySystem.exe

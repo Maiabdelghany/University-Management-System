@@ -1,0 +1,8 @@
+cs102,python,3,dr heba
+cs205,python,5,ragy
+CSCI101,Introduction to Programming,3,Dr Heba
+CSCI205,C++ Programming Language,3,Dr Ahmed
+CSCI207,Data Structure,3,Dr Hadeer
+ENGL,english,3,Dr Ragy
+MATH112,Discrete,3,Dr Mohammed
+PHYS101,Physic,4,Dr Yasser

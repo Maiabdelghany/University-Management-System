@@ -1,0 +1,12 @@
+C:\Users\Lenovo\source\repos\UniversitySystem\UniversitySystem\x64\Debug\UniversitySystem.vcxproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\UniversitySystem\UniversitySystem\x64\Debug\UniversitySystem.CourseRecordsManagement.resources
+C:\Users\Lenovo\source\repos\UniversitySystem\UniversitySystem\x64\Debug\UniversitySystem.vcxproj.GenerateResource.cache
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\x64\Debug\UniversitySystem.vcxproj.AssemblyReference.cache
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\x64\Debug\UniversitySystem.vcxproj.GenerateResource.cache
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\x64\Debug\UniversitySystem.Home.resources
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\x64\Debug\UniversitySystem.Waitlist.resources
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\x64\Debug\UniversitySystem.CourseRecords.resources
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\x64\Debug\UniversitySystem.StudentManagement.resources
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\x64\Debug\UniversitySystem.search.resources
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\x64\Debug\UniversitySystem.history.resources
+C:\Users\Lenovo\source\University System\UniversitySystem\UniversitySystem\x64\Debug\UniversitySystem.registration.resources
